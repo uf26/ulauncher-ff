@@ -19,7 +19,7 @@
       "type": "select",
       "name": "Enter action",
       "description": "Set the preferred behaviour for Enter.",
-      "default_value": 1,
+      "default_value": 0,
       "options": [
         {
           "text": "Open path's directory",
@@ -36,7 +36,7 @@
       "type": "select",
       "name": "Alt+Enter action",
       "description": "Set the preferred behaviour for Alt+Enter.",
-      "default_value": 0,
+      "default_value": 1,
       "options": [
         {
           "text": "Open path's directory",
