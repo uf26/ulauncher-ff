@@ -178,7 +178,7 @@ class KeywordQueryEventListener(EventListener):
             command = terminal + " --working-directory " + dirname
             return RunScriptAction(command)
 
-        return OpenAction(dirname)
+        return OpenAction(filename)
 
 
     @staticmethod
